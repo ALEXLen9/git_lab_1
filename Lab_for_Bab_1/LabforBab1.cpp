@@ -2,10 +2,20 @@
 //
 
 #include "stdafx.h"
+#include <locale>
+#include <Windows.h>
+#include "iostream"
+
+using namespace std;
 
 
 int main()
 {
-    return 0;
+	//setlocale(LC_ALL, "Rus");
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
+
+	system("pause");
 }
 
