@@ -28,6 +28,8 @@ int main()
 	cout << "Но сейчас любит." << endl;
 	cout << "Раньше не читал." << endl;
 	cout << "Но сейчас умеет." << endl;
+	cout << "Играю с музыкой." << endl;
+	cout << "Играю в музыку." << endl;
 
 	system("pause");
 }
